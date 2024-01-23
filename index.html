@@ -42,7 +42,7 @@
       .manrope {
         font-family: "Manrope", sans-serif;
       }
-      .margin{
+      .margin {
         margin: 0px !important;
       }
     </style>
@@ -94,7 +94,9 @@
           </ul>
         </div>
         <div class="navbar-end">
-            <i class="hidden lg:flex text-2xl lg:mr-4 fa-solid fa-magnifying-glass"></i>
+          <i
+            class="hidden lg:flex text-2xl lg:mr-4 fa-solid fa-magnifying-glass"
+          ></i>
           <a class="btn bg-primary px-6 py-4 rounded-lg text-white"
             >Get Ticket</a
           >
@@ -103,361 +105,697 @@
     </nav>
     <!-- banner section -->
     <header class="container mx-auto space-y-2 mt-5 lg:mt-12 px-3 lg:px-5">
-        <div class="carousel w-full h-[120vh] md:h-[120vh] lg:h-[90vh]">
-            <!-- slider 1 -->
-            <div id="slide1" class="carousel-item relative w-full bg-[url(./images/1.png)] bg-no-repeat bg-cover  h-[80vh] lg:h-[90vh]  bg-center object-cover">
-                <div class=" flex lg:w-[500px] w-full lg:h-[120px] lg:p-8 p-2 bg-black absolute lg:top-[70%] lg:left-[55%] md:top-[70%] md:p-5 md:left-[50%] rounded-lg top-[100%]  flex-col justify-center ">
-                    <h2 class="text-white text-lg lg:text-2xl capitalize">Meet all the heroes from the field</h2>
-                    <p class="text-white lg:text-[16px] text-[14px] text-[#ffffff99] opacity-35">Hockey is an anciant game played for years in india.It is played with a hockeystick  and a ball.</p>
-                </div>
-    
-              <div class="absolute flex  transform -translate-y-1/2 left-5 right-5 top-3/4">
-                <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
-                <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
-              </div>
-            </div> 
-         
-            <!-- slider 2 -->
-            <div id="slide2" class="carousel-item relative w-full  bg-[url(./images/slider-2.png)] bg-no-repeat bg-cover h-[80vh] lg:h-[90vh]  bg-center  rounded-lg ">
-                <div class="lg:w-[500px] w-full lg:h-[120px] lg:p-8 p-2 bg-black absolute lg:top-[70%] lg:left-[55%]  md:top-[70%] md:p-5 md:left-[50%] rounded-lg top-[100%] flex flex-col justify-center ">
-                    <h2 class="text-white text-lg lg:text-2xl capitalize">Our real Hockey's Hero</h2>
-                    <p class="text-white lg:text-[16px] text-[14px] text-[#ffffff99] opacity-35">There are various variations of the Hockey some of them are named as field hockey</p>
-                </div>
-                <div class="absolute flex  transform -translate-y-1/2 left-5 right-5 top-3/4">
-                <a href="#slide1" class="btn btn-circle   bg-black text-white">❮</a> 
-                <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
-              </div>
-            </div> 
-            <!-- slider 3 -->
-            <div id="slide3" class="carousel-item relative w-full  bg-[url(./images/slider-3.png)] bg-no-repeat bg-cover h-[80vh] lg:h-[90vh]  bg-center rounded-lg  ">
-                <div class="lg:w-[500px] w-full lg:h-[120px] lg:p-8 p-2 bg-black absolute lg:top-[70%] lg:left-[55%]  md:top-[70%] md:p-5 md:left-[50%] rounded-lg top-[100%] flex flex-col justify-center ">
-                    <h2 class="text-white text-lg lg:text-2xl capitalize">The main equipement </h2>
-                    <p class="text-white lg:text-[16px] text-[14px] text-[#ffffff99] opacity-35">A hockey stick is a piece of sports equipement used by the players in all the  forms o hockey.</p>
-                </div>
-              <div class="absolute flex  transform -translate-y-1/2 left-5 right-5 top-3/4">
-                <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a> 
-                <a href="#slide4" class="btn btn-circle  bg-black text-white">❯</a>
-              </div>
-            </div> 
-            <!-- slider 4 -->
-            <div id="slide4" class="carousel-item relative w-full  bg-[url(./images/slider-4.png)] bg-no-repeat bg-cover h-[80vh] lg:h-[90vh]  bg-center rounded-lg  ">
-                <div class="lg:w-[500px] w-full lg:h-[120px] lg:p-8 p-2 bg-black absolute lg:top-[70%] lg:left-[55%]  md:top-[70%] md:p-5 md:left-[50%] rounded-lg top-[100%] flex flex-col justify-center ">
-                    <h2 class="text-white text-lg lg:text-2xl capitalize">Ice hockey</h2>
-                    <p class="text-white lg:text-[16px] text-[14px] text-[#ffffff99] opacity-35">ice hockey is a team sport played on ice skates.</p>
-                </div>
-              <div class="absolute flex  transform -translate-y-1/2 left-5 right-5 top-3/4">
-                <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a> 
-                <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
-              </div>
-            </div>
+      <div class="carousel w-full h-[120vh] md:h-[120vh] lg:h-[90vh]">
+        <!-- slider 1 -->
+        <div
+          id="slide1"
+          class="carousel-item relative w-full bg-[url(./images/1.png)] bg-no-repeat bg-cover h-[80vh] lg:h-[90vh] bg-center object-cover"
+        >
+          <div
+            class="flex lg:w-[500px] w-full lg:h-[120px] lg:p-8 p-2 bg-black absolute lg:top-[70%] lg:left-[55%] md:top-[70%] md:p-5 md:left-[50%] rounded-lg top-[100%] flex-col justify-center"
+          >
+            <h2 class="text-white text-lg lg:text-2xl capitalize">
+              Meet all the heroes from the field
+            </h2>
+            <p
+              class="text-white lg:text-[16px] text-[14px] text-[#ffffff99] opacity-35"
+            >
+              Hockey is an anciant game played for years in india.It is played
+              with a hockeystick and a ball.
+            </p>
           </div>
-     
 
+          <div
+            class="absolute flex transform -translate-y-1/2 left-5 right-5 top-3/4"
+          >
+            <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div>
+
+        <!-- slider 2 -->
+        <div
+          id="slide2"
+          class="carousel-item relative w-full bg-[url(./images/slider-2.png)] bg-no-repeat bg-cover h-[80vh] lg:h-[90vh] bg-center rounded-lg"
+        >
+          <div
+            class="lg:w-[500px] w-full lg:h-[120px] lg:p-8 p-2 bg-black absolute lg:top-[70%] lg:left-[55%] md:top-[70%] md:p-5 md:left-[50%] rounded-lg top-[100%] flex flex-col justify-center"
+          >
+            <h2 class="text-white text-lg lg:text-2xl capitalize">
+              Our real Hockey's Hero
+            </h2>
+            <p
+              class="text-white lg:text-[16px] text-[14px] text-[#ffffff99] opacity-35"
+            >
+              There are various variations of the Hockey some of them are named
+              as field hockey
+            </p>
+          </div>
+          <div
+            class="absolute flex transform -translate-y-1/2 left-5 right-5 top-3/4"
+          >
+            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div>
+        <!-- slider 3 -->
+        <div
+          id="slide3"
+          class="carousel-item relative w-full bg-[url(./images/slider-3.png)] bg-no-repeat bg-cover h-[80vh] lg:h-[90vh] bg-center rounded-lg"
+        >
+          <div
+            class="lg:w-[500px] w-full lg:h-[120px] lg:p-8 p-2 bg-black absolute lg:top-[70%] lg:left-[55%] md:top-[70%] md:p-5 md:left-[50%] rounded-lg top-[100%] flex flex-col justify-center"
+          >
+            <h2 class="text-white text-lg lg:text-2xl capitalize">
+              The main equipement
+            </h2>
+            <p
+              class="text-white lg:text-[16px] text-[14px] text-[#ffffff99] opacity-35"
+            >
+              A hockey stick is a piece of sports equipement used by the players
+              in all the forms o hockey.
+            </p>
+          </div>
+          <div
+            class="absolute flex transform -translate-y-1/2 left-5 right-5 top-3/4"
+          >
+            <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div>
+        <!-- slider 4 -->
+        <div
+          id="slide4"
+          class="carousel-item relative w-full bg-[url(./images/slider-4.png)] bg-no-repeat bg-cover h-[80vh] lg:h-[90vh] bg-center rounded-lg"
+        >
+          <div
+            class="lg:w-[500px] w-full lg:h-[120px] lg:p-8 p-2 bg-black absolute lg:top-[70%] lg:left-[55%] md:top-[70%] md:p-5 md:left-[50%] rounded-lg top-[100%] flex flex-col justify-center"
+          >
+            <h2 class="text-white text-lg lg:text-2xl capitalize">
+              Ice hockey
+            </h2>
+            <p
+              class="text-white lg:text-[16px] text-[14px] text-[#ffffff99] opacity-35"
+            >
+              ice hockey is a team sport played on ice skates.
+            </p>
+          </div>
+          <div
+            class="absolute flex transform -translate-y-1/2 left-5 right-5 top-3/4"
+          >
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- main area start -->
     <main class="container mx-auto">
-    <!-- personal hocky club section -->
-    <section class="space-y-5 mt-7">
+      <!-- personal hocky club section -->
+      <section class="space-y-5 mt-7">
         <!-- top text area -->
-            <div class="flex flex-col justify-center items-center border-dotted border-t-2 border-b-2 space-y-5 lg:p-16 p-5">
-                <h2 class="  lg:text-3xl font-extrabold"> Professional Hockeys Club</h2>
-                <p class="lg:w-[600px] w-full text-center mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <div
+          class="flex flex-col justify-center items-center border-dotted border-t-2 border-b-2 space-y-5 lg:p-16 p-5"
+        >
+          <h2 class="lg:text-3xl font-extrabold">Professional Hockeys Club</h2>
+          <p class="lg:w-[600px] w-full text-center mt-6">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <!-- radial progress area -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 border-b-2 py-10 gap-5"
+        >
+          <!-- progress 1 -->
+          <div class="flex flex-col justify-center items-center py-5 px-5">
+            <div
+              class="radial-progress text-primary"
+              style="--value: 87"
+              role="progressbar"
+            >
+              87%
             </div>
-            <!-- radial progress area -->
-            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 border-b-2  py-10 gap-5">
-                <!-- progress 1 -->
-                <div class="flex flex-col justify-center items-center  py-5 px-5">
-                    <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%
-                    </div>
-                    <div class="flex flex-col justify-center items-center gap-5">
-                        <h2 class="text-[20px] font-bold">Player Facility</h2>
-                        <p class="text-center">The Hockey Players get various kind of Facilities.</p>
-                    </div>
-                </div>
-                 <!-- progress 2-->
-                <div class="flex  flex-col justify-center items-center margin  py-5 px-5">
-                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
-                    <div class="flex flex-col justify-center items-center gap-5">
-                        <h2 class="text-[20px] font-bold">Experienced Coach</h2>
-                        <p class="text-center">There have lots of many experienced coach in our club.</p>
-                    </div>
-                </div>
-                 <!-- progress 3-->
-                <div class="flex flex-col justify-center items-center margin py-5 px-5">
-                    <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
-                    <div class="flex flex-col justify-center items-center gap-5">
-                        <h2 class="text-[20px] font-bold">Senior Player</h2>
-                        <p class="text-center">All time senior player is very important as a team.</p>
-                    </div>
-                </div>
-                 <!-- progress 4 -->
-                <div class="flex flex-col justify-center items-center margin py-5 px-5">
-                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
-                    <div class="flex flex-col justify-center items-center gap-5">
-                        <h2 class="text-[20px] font-bold">Training Ground</h2>
-                        <p class="text-center">We have a big and well furnished traning ground. </p>
-                    </div>
-                </div>
+            <div class="flex flex-col justify-center items-center gap-5">
+              <h2 class="text-[20px] font-bold">Player Facility</h2>
+              <p class="text-center">
+                The Hockey Players get various kind of Facilities.
+              </p>
             </div>
-
-
-    </section>
-    <!-- program section -->
-    <section class="space-y-5 mt-7">
+          </div>
+          <!-- progress 2-->
+          <div
+            class="flex flex-col justify-center items-center margin py-5 px-5"
+          >
+            <div
+              class="radial-progress text-[#49D293]"
+              style="--value: 95"
+              role="progressbar"
+            >
+              95%
+            </div>
+            <div class="flex flex-col justify-center items-center gap-5">
+              <h2 class="text-[20px] font-bold">Experienced Coach</h2>
+              <p class="text-center">
+                There have lots of many experienced coach in our club.
+              </p>
+            </div>
+          </div>
+          <!-- progress 3-->
+          <div
+            class="flex flex-col justify-center items-center margin py-5 px-5"
+          >
+            <div
+              class="radial-progress text-[#FFB546]"
+              style="--value: 90"
+              role="progressbar"
+            >
+              90%
+            </div>
+            <div class="flex flex-col justify-center items-center gap-5">
+              <h2 class="text-[20px] font-bold">Senior Player</h2>
+              <p class="text-center">
+                All time senior player is very important as a team.
+              </p>
+            </div>
+          </div>
+          <!-- progress 4 -->
+          <div
+            class="flex flex-col justify-center items-center margin py-5 px-5"
+          >
+            <div
+              class="radial-progress text-[#4C8DF1]"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <div class="flex flex-col justify-center items-center gap-5">
+              <h2 class="text-[20px] font-bold">Training Ground</h2>
+              <p class="text-center">
+                We have a big and well furnished traning ground.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- program section -->
+      <section class="space-y-5 mt-7">
         <!-- text section -->
-        <div class="flex flex-col justify-center items-center border-dotted  border-b-2 space-y-5 lg:p-16  lg:mb-20">
-            <h2 class="  lg:text-3xl font-extrabold"> Program Sections</h2>
-            <p class="lg:w-[600px] w-full text-center mt-6">The Player Skate up and down the ice shooting or passing a hard rubber disk called a puck with sticks </p>
+        <div
+          class="flex flex-col justify-center items-center border-dotted border-b-2 space-y-5 lg:p-16 lg:mb-20"
+        >
+          <h2 class="lg:text-3xl font-extrabold">Program Sections</h2>
+          <p class="lg:w-[600px] w-full text-center mt-6">
+            The Player Skate up and down the ice shooting or passing a hard
+            rubber disk called a puck with sticks
+          </p>
         </div>
         <!-- img section -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 p-5">
           <!-- first img -->
-            <div style=" opacity: 70%;" class=" bg-[url(./images/2.png)]  h-[400px] w-full bg-no-repeat bg-cover bg-center rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 justify-center bg-opacity-60 ">
-              <h1 class="text-white text-2xl font-extrabold">Junior Program</h1>
-              <p class="text-white capitalize">Our hockey club is well renound .various kind of program we provide .Simply we piroty our students they are our pride  and future also.Thanks a lot</p>
-                <button class="btn bg-primary text-white outline-none font-bold px-5 lg:mt-5" >Register Now!</button>
+          <div
+            style="opacity: 70%"
+            class="bg-[url(./images/2.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 justify-center bg-opacity-60"
+          >
+            <h1 class="text-white text-2xl font-extrabold">Junior Program</h1>
+            <p class="text-white capitalize">
+              Our hockey club is well renound .various kind of program we
+              provide .Simply we piroty our students they are our pride and
+              future also.Thanks a lot
+            </p>
+            <button
+              class="btn bg-primary text-white outline-none font-bold px-5 lg:mt-5"
+            >
+              Register Now!
+            </button>
+          </div>
+          <!-- second img -->
+          <div
+            style="opacity: 70%"
+            class="bg-[url(./images/3.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 justify-center"
+          >
+            <h1 class="text-white text-2xl font-extrabold">Teenager Program</h1>
+            <p class="text-white capitalize">
+              Hey peoples we also provide Teenagers program . I think its very
+              essiantial our Hockey nation . This program is approved by
+              government.
+            </p>
+            <button
+              class="btn bg-primary text-white outline-none font-bold px-5 lg:mt-5"
+            >
+              Register Now!
+            </button>
+          </div>
+          <!-- third img -->
+          <div
+            style="opacity: 70%"
+            class="bg-[url(./images/4.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center lg:col-span-2 md:col-span-2 rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 lg:justify-end justify-center"
+          >
+            <h1 class="text-white text-2xl font-extrabold">
+              Professional Program
+            </h1>
+            <p class="text-white lg:w-[500px] capitalize">
+              On the other hand we provide professional program also . We
+              mantain our professionalism .Our program is well decorated by good
+              teacher , and they are gold madelist in Hocky international
+            </p>
+            <button
+              class="btn bg-primary text-white outline-none font-bold px-5 lg:mt-2"
+            >
+              Register Now!
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- our  new products -->
+      <section class="space-y-5 mt-7">
+        <!-- text section -->
+        <div
+          class="flex flex-col justify-center items-center border-dotted border-t-2 border-b-2 space-y-5 lg:p-16 p-5 lg:mb-20"
+        >
+          <h2 class="lg:text-3xl font-extrabold">Our New Products</h2>
+          <p class="lg:w-[600px] w-full text-center mt-6 capitalize">
+            Hey people's we sales various product and this product is very
+            productive as a Hockey player .
+          </p>
+        </div>
+        <!-- card container -->
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-2">
+          <!-- card-1 -->
+          <div class="w-full px-3 lg:h-[300px]">
+            <div
+              class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col"
+            >
+              <figure>
+                <img
+                  class="lg:h-[30vh] rounded-lg"
+                  src="./images/5.png"
+                  alt="Movie"
+                />
+              </figure>
+              <div class="card-body">
+                <!-- ratings  -->
+                <div
+                  class="flex flex-row gap-2 lg:gap-2 justify-start items-center"
+                >
+                  <div class="rating mr-2">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <p>5.0</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                  </div>
+                </div>
+                <!-- text -->
+                <div class="space-y-3">
+                  <h2 class="lg:text-[20px] font-extrabold">
+                    World Cup Flags Football
+                  </h2>
+                  <p>
+                    This Hockey World cup is very interesting and well played
+                    every team.
+                  </p>
+                </div>
+                <!-- price -->
+                <div class="flex lg:flex-row flex-col gap-2 justify-center">
+                  <p class="text-primary">price- $22.00</p>
+                  <p>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                  </p>
+                </div>
+              </div>
             </div>
-            <!-- second img -->
-            <div style="opacity: 70%;" class=" bg-[url(./images/3.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 justify-center">
-              <h1 class="text-white text-2xl font-extrabold">Teenager Program</h1>
-              <p class="text-white capitalize">Hey peoples we also provide Teenagers program . I think its very essiantial our Hockey  nation . This program is approved by government.</p>
-                <button class="btn bg-primary text-white outline-none font-bold px-5 lg:mt-5" >Register Now!</button>
+          </div>
+          <!-- card-2 -->
+          <div class="w-full px-3 lg:h-[300px]">
+            <div
+              class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col"
+            >
+              <figure>
+                <img
+                  class="lg:h-[30vh] rounded-lg"
+                  src="./images/6.png"
+                  alt="Movie"
+                />
+              </figure>
+              <div class="card-body">
+                <!-- ratings  -->
+                <div
+                  class="flex flex-row gap-2 lg:gap-2 justify-start items-center"
+                >
+                  <div class="rating mr-2">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <p>5.0</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                  </div>
+                </div>
+                <!-- text -->
+                <div class="space-y-3">
+                  <h2 class="lg:text-[20px] font-extrabold">
+                    World Cup Flags Football
+                  </h2>
+                  <p>
+                    This Hockey World cup is very interesting and well played
+                    every team.
+                  </p>
+                </div>
+                <!-- price -->
+                <div class="flex lg:flex-row flex-col gap-2 justify-center">
+                  <p class="text-primary">price- $22.00</p>
+                  <p>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                  </p>
+                </div>
+              </div>
             </div>
-            <!-- third img -->
-            <div style="opacity: 70%;" class="bg-[url(./images/4.png)]   h-[400px] w-full bg-no-repeat bg-cover bg-center lg:col-span-2 md:col-span-2 rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 lg:justify-end justify-center ">
-              <h1 class="text-white text-2xl font-extrabold ">Professional Program</h1>
-              <p class="text-white lg:w-[500px] capitalize">On the other hand we provide professional program also . We mantain our professionalism .Our program is well decorated by good teacher , and they are gold madelist in Hocky international</p>
-                <button class="btn bg-primary text-white outline-none font-bold px-5 lg:mt-2" >Register Now!</button>
+          </div>
+          <!-- card-3 -->
+          <div class="w-full px-3 lg:h-[300px]">
+            <div
+              class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col"
+            >
+              <figure>
+                <img
+                  class="lg:h-[30vh] rounded-lg"
+                  src="./images/7.png"
+                  alt="Movie"
+                />
+              </figure>
+              <div class="card-body">
+                <!-- ratings  -->
+                <div
+                  class="flex flex-row gap-2 lg:gap-2 justify-start items-center"
+                >
+                  <div class="rating mr-2">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <p>5.0</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                  </div>
+                </div>
+                <!-- text -->
+                <div class="space-y-3">
+                  <h2 class="lg:text-[20px] font-extrabold">
+                    World Cup Flags Football
+                  </h2>
+                  <p>
+                    This Hockey World cup is very interesting and well played
+                    every team.
+                  </p>
+                </div>
+                <!-- price -->
+                <div class="flex lg:flex-row flex-col gap-2 justify-center">
+                  <p class="text-primary">price- $22.00</p>
+                  <p>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                  </p>
+                </div>
+              </div>
             </div>
-            
+          </div>
+          <!-- card-4 -->
+          <div class="w-full px-3 lg:h-[300px]">
+            <div
+              class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col"
+            >
+              <figure>
+                <img
+                  class="lg:h-[30vh] rounded-lg"
+                  src="./images/8.png"
+                  alt="Movie"
+                />
+              </figure>
+              <div class="card-body">
+                <!-- ratings  -->
+                <div
+                  class="flex flex-row gap-2 lg:gap-2 justify-start items-center"
+                >
+                  <div class="rating mr-2">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <p>5.0</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                  </div>
+                </div>
+                <!-- text -->
+                <div class="space-y-3">
+                  <h2 class="lg:text-[20px] font-extrabold">
+                    World Cup Flags Football
+                  </h2>
+                  <p>
+                    This Hockey World cup is very interesting and well played
+                    every team.
+                  </p>
+                </div>
+                <!-- price -->
+                <div class="flex lg:flex-row flex-col gap-2 justify-center">
+                  <p class="text-primary">price- $22.00</p>
+                  <p>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-5-->
+          <div class="w-full px-3 lg:h-[300px]">
+            <div
+              class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col"
+            >
+              <figure>
+                <img
+                  class="lg:h-[30vh] rounded-lg"
+                  src="./images/9.png"
+                  alt="Movie"
+                />
+              </figure>
+              <div class="card-body">
+                <!-- ratings  -->
+                <div
+                  class="flex flex-row gap-2 lg:gap-2 justify-start items-center"
+                >
+                  <div class="rating mr-2">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <p>5.0</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                  </div>
+                </div>
+                <!-- text -->
+                <div class="space-y-3">
+                  <h2 class="lg:text-[20px] font-extrabold">
+                    World Cup Flags Football
+                  </h2>
+                  <p>
+                    This Hockey World cup is very interesting and well played
+                    every team.
+                  </p>
+                </div>
+                <!-- price -->
+                <div class="flex lg:flex-row flex-col gap-2 justify-center">
+                  <p class="text-primary">price- $22.00</p>
+                  <p>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-6 -->
+          <div class="w-full px-3 lg:h-[300px]">
+            <div
+              class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col"
+            >
+              <figure>
+                <img
+                  class="lg:h-[30vh] rounded-lg"
+                  src="./images/10.png"
+                  alt="Movie"
+                />
+              </figure>
+              <div class="card-body">
+                <!-- ratings  -->
+                <div
+                  class="flex flex-row gap-2 lg:gap-2 justify-start items-center"
+                >
+                  <div class="rating mr-2">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <p>5.0</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  </div>
+                  <div class="flex flex-row gap-2 justify-center items-center">
+                    <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                  </div>
+                </div>
+                <!-- text -->
+                <div class="space-y-3">
+                  <h2 class="lg:text-[20px] font-extrabold">
+                    World Cup Flags Football
+                  </h2>
+                  <p>
+                    This Hockey World cup is very interesting and well played
+                    every team.
+                  </p>
+                </div>
+                <!-- price -->
+                <div class="flex lg:flex-row flex-col gap-2 justify-center">
+                  <p class="text-primary">price- $22.00</p>
+                  <p>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- clints question -->
+      <section class="space-y-5 mt-7">
+        <!-- text section -->
+        <div
+          class="flex flex-col justify-center items-center border-dotted border-t-2 border-b-4  space-y-5 lg:p-16 p-5 lg:mb-20"
+        >
+          <h2 class="lg:text-3xl font-extrabold">Clients Question</h2>
+          <p class="lg:w-[600px] w-full text-center mt-6 capitalize">
+            Hey people's Our clint is very important .We should know what they
+            say abour our club .
+          </p>
+        </div>
+        <!-- acordian section -->
+        <div class=" flex lg:flex-row flex-col gap-10 p-4 lg:p-10 border-dotted border-4">
+          <!-- img -->
+          <div class="flex-1"><img class="w-[100%]" src="./images/11.png" alt=""></div>
+          <!-- acordian -->
+          <div class="flex-1 w-full">
+            <!-- first -->
+          <div class="collapse collapse-plus mb-6 border-solid border-b-2 rounded-none">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl lg:text-2xl font-extrabold">
+              Our Equipment
+            </div>
+            <div class="collapse-content"> 
+              <p>The hard surfaces of the ice and boards, pucks being shot at high speed, and other players maneuvering (and often intentionally colliding, also known as "checking") pose multiple safety hazards. Besides ice skates and sticks,</p>
+            </div>
+          </div>
+          <!-- second -->
+          <div class="collapse collapse-plus  mb-6 border-solid border-b-2 rounded-none">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl lg:text-2xl font-extrabold">
+              Hockey Training
+            </div>
+            <div class="collapse-content"> 
+              <p>Hockey traning part is very well known and one other section.</p>
+            </div>
+          </div>
+          <!-- third -->
+          <div class="collapse collapse-plus bg-base-200  mb-6 border-solid border-b-2 rounded-none">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl lg:text-2xl font-extrabold">
+              Private Lessons
+            </div>
+            <div class="collapse-content"> 
+              <p>hello This part is private lessons part ,its very improtant as a hockey players.</p>
+            </div>
+          </div>
+          <!-- fourth -->
+          <div class="collapse collapse-plus bg-base-200  mb-6 border-solid border-b-2 rounded-none">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl lg:text-2xl font-extrabold">
+              Ski Touring
+            </div>
+            <div class="collapse-content"> 
+              <p>hello This part is ski touring part ,its very improtant as a hockey players.</p>
+            </div>
+          </div>
+          <!-- five -->
+          <div class="collapse collapse-plus bg-base-200  mb-6 border-solid border-b-2 rounded-none">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl lg:text-2xl font-extrabold">
+              Booking
+            </div>
+            <div class="collapse-content"> 
+              <p>hello This part is Booking part ,its very improtant as a hockey players.</p>
+            </div>
+          </div>
+          <!-- six -->
+          <div class="collapse collapse-plus bg-base-200  mb-6 border-solid border-b-2 rounded-none">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl lg:text-2xl font-extrabold">
+              Pricings
+            </div>
+            <div class="collapse-content"> 
+              <p>hello This part is pricing part ,its very improtant as a hockey players.</p>
+            </div>
+          </div>
 
         </div>
-
-    </section>
-    <!-- our  new products -->
-    <section class="space-y-5 mt-7">
-         <!-- text section -->
-         <div class="flex flex-col justify-center items-center border-dotted border-t-2 border-b-2 space-y-5 lg:p-16 p-5 lg:mb-20">
-          <h2 class="  lg:text-3xl font-extrabold"> Our New Products</h2>
-          <p class="lg:w-[600px] w-full text-center mt-6 capitalize">Hey people's we sales various product and this product is very productive as a Hockey player . </p>
       </div>
-      <!-- card container -->
-      <div class=" grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-2">
-        <!-- card-1 -->
-        <div class="  w-full  px-3 lg:h-[300px] ">
-          <div class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col ">
-            <figure><img class=" lg:h-[30vh] rounded-lg" src="./images/5.png" alt="Movie"/></figure>
-            <div class="card-body">
-              <!-- ratings  -->
-              <div class="flex flex-row gap-2 lg:gap-2 justify-start items-center">
-                <div class="rating mr-2">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <p>5.0</p>
-                </div>
-                <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-eye"></i>
-                <p>20</p>
-              </div>
-              <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-heart"></i>
-                <p>200</p>
-              </div>
-              </div>
-              <!-- text -->
-              <div class="space-y-3">
-                <h2 class="lg:text-[20px] font-extrabold">World Cup Flags Football</h2>
-                <p>This Hockey World cup is very interesting and well played every team.</p>
-              </div>
-              <!-- price -->
-              <div class="flex lg:flex-row flex-col gap-2  justify-center ">
-                <p class="text-primary">price- $22.00</p>
-                <p><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</p>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <!-- card-2 -->
-        <div class="  w-full  px-3 lg:h-[300px] ">
-          <div class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col ">
-            <figure><img class=" lg:h-[30vh] rounded-lg" src="./images/6.png" alt="Movie"/></figure>
-            <div class="card-body">
-              <!-- ratings  -->
-              <div class="flex flex-row gap-2 lg:gap-2 justify-start items-center">
-                <div class="rating mr-2">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <p>5.0</p>
-                </div>
-                <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-eye"></i>
-                <p>20</p>
-              </div>
-              <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-heart"></i>
-                <p>200</p>
-              </div>
-              </div>
-              <!-- text -->
-              <div class="space-y-3">
-                <h2 class="lg:text-[20px] font-extrabold">World Cup Flags Football</h2>
-                <p>This Hockey World cup is very interesting and well played every team.</p>
-              </div>
-              <!-- price -->
-              <div class="flex lg:flex-row flex-col gap-2  justify-center ">
-                <p class="text-primary">price- $22.00</p>
-                <p><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</p>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <!-- card-3 -->
-        <div class="  w-full  px-3 lg:h-[300px] ">
-          <div class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col ">
-            <figure><img class=" lg:h-[30vh] rounded-lg" src="./images/7.png" alt="Movie"/></figure>
-            <div class="card-body">
-              <!-- ratings  -->
-              <div class="flex flex-row gap-2 lg:gap-2 justify-start items-center">
-                <div class="rating mr-2">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <p>5.0</p>
-                </div>
-                <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-eye"></i>
-                <p>20</p>
-              </div>
-              <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-heart"></i>
-                <p>200</p>
-              </div>
-              </div>
-              <!-- text -->
-              <div class="space-y-3">
-                <h2 class="lg:text-[20px] font-extrabold">World Cup Flags Football</h2>
-                <p>This Hockey World cup is very interesting and well played every team.</p>
-              </div>
-              <!-- price -->
-              <div class="flex lg:flex-row flex-col gap-2  justify-center ">
-                <p class="text-primary">price- $22.00</p>
-                <p><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</p>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <!-- card-4 -->
-        <div class="  w-full  px-3 lg:h-[300px] ">
-          <div class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col ">
-            <figure><img class=" lg:h-[30vh] rounded-lg" src="./images/8.png" alt="Movie"/></figure>
-            <div class="card-body">
-              <!-- ratings  -->
-              <div class="flex flex-row gap-2 lg:gap-2 justify-start items-center">
-                <div class="rating mr-2">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <p>5.0</p>
-                </div>
-                <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-eye"></i>
-                <p>20</p>
-              </div>
-              <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-heart"></i>
-                <p>200</p>
-              </div>
-              </div>
-              <!-- text -->
-              <div class="space-y-3">
-                <h2 class="lg:text-[20px] font-extrabold">World Cup Flags Football</h2>
-                <p>This Hockey World cup is very interesting and well played every team.</p>
-              </div>
-              <!-- price -->
-              <div class="flex lg:flex-row flex-col gap-2  justify-center ">
-                <p class="text-primary">price- $22.00</p>
-                <p><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</p>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <!-- card-5-->
-        <div class="  w-full  px-3 lg:h-[300px] ">
-          <div class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col ">
-            <figure><img class=" lg:h-[30vh] rounded-lg" src="./images/9.png" alt="Movie"/></figure>
-            <div class="card-body">
-              <!-- ratings  -->
-              <div class="flex flex-row gap-2 lg:gap-2 justify-start items-center">
-                <div class="rating mr-2">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <p>5.0</p>
-                </div>
-                <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-eye"></i>
-                <p>20</p>
-              </div>
-              <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-heart"></i>
-                <p>200</p>
-              </div>
-              </div>
-              <!-- text -->
-              <div class="space-y-3">
-                <h2 class="lg:text-[20px] font-extrabold">World Cup Flags Football</h2>
-                <p>This Hockey World cup is very interesting and well played every team.</p>
-              </div>
-              <!-- price -->
-              <div class="flex lg:flex-row flex-col gap-2  justify-center ">
-                <p class="text-primary">price- $22.00</p>
-                <p><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</p>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <!-- card-6 -->
-        <div class="  w-full  px-3 lg:h-[300px] ">
-          <div class="card card-side bg-base-100 shadow-xl border-solid border-2 flex lg:flex-row flex-col ">
-            <figure><img class=" lg:h-[30vh] rounded-lg" src="./images/10.png" alt="Movie"/></figure>
-            <div class="card-body">
-              <!-- ratings  -->
-              <div class="flex flex-row gap-2 lg:gap-2 justify-start items-center">
-                <div class="rating mr-2">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <p>5.0</p>
-                </div>
-                <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-eye"></i>
-                <p>20</p>
-              </div>
-              <div class="flex flex-row gap-2 justify-center items-center">
-                <i class="fa-regular fa-heart"></i>
-                <p>200</p>
-              </div>
-              </div>
-              <!-- text -->
-              <div class="space-y-3">
-                <h2 class="lg:text-[20px] font-extrabold">World Cup Flags Football</h2>
-                <p>This Hockey World cup is very interesting and well played every team.</p>
-              </div>
-              <!-- price -->
-              <div class="flex lg:flex-row flex-col gap-2  justify-center ">
-                <p class="text-primary">price- $22.00</p>
-                <p><i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free</p>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- clints question -->
-    <section class="space-y-5 mt-7">
-         <!-- text section -->
-         <div class="flex flex-col justify-center items-center border-dotted border-t-2 border-b-2 space-y-5 lg:p-16 p-5 lg:mb-20">
-          <h2 class="  lg:text-3xl font-extrabold">Clients Question</h2>
-          <p class="lg:w-[600px] w-full text-center mt-6 capitalize">Hey people's Our clint is very important .We should know what they say abour our club . </p>
-      </div>
-    </section>
-
+      </section>
     </main>
   </body>
 </html>
