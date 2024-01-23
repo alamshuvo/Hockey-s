@@ -45,6 +45,26 @@
       .margin {
         margin: 0px !important;
       }
+      .label{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+      }
+      .label-text{
+        font-size: .875rem;
+        line-height: 1.25rem;
+
+      }
+      .input{
+        height: 3rem;
+        padding: 0rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        border-radius: 5rem;
+        border-width: 1px;
+        border-color: transparent;
+      }
     </style>
   </head>
   <body class="manrope">
@@ -315,8 +335,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 p-5">
           <!-- first img -->
           <div
-            style="opacity: 70%"
-            class="bg-[url(./images/2.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 justify-center bg-opacity-60"
+            class="bg-[url(./images/2.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 justify-center bg-opacity-60 bg-blend-overlay bg-black/40"
           >
             <h1 class="text-white text-2xl font-extrabold">Junior Program</h1>
             <p class="text-white capitalize">
@@ -332,8 +351,7 @@
           </div>
           <!-- second img -->
           <div
-            style="opacity: 70%"
-            class="bg-[url(./images/3.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 justify-center"
+            class="bg-[url(./images/3.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 justify-center bg-blend-overlay bg-black/40"
           >
             <h1 class="text-white text-2xl font-extrabold">Teenager Program</h1>
             <p class="text-white capitalize">
@@ -349,8 +367,7 @@
           </div>
           <!-- third img -->
           <div
-            style="opacity: 70%"
-            class="bg-[url(./images/4.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center lg:col-span-2 md:col-span-2 rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 lg:justify-end justify-center"
+            class="bg-[url(./images/4.png)] h-[400px] w-full bg-no-repeat bg-cover bg-center lg:col-span-2 md:col-span-2 rounded-lg flex gap-3 flex-col items-start lg:gap-3 lg:px-10 px-3 lg:justify-end justify-center bg-blend-overlay bg-black/40"
           >
             <h1 class="text-white text-2xl font-extrabold">
               Professional Program
@@ -795,6 +812,89 @@
 
         </div>
       </div>
+      </section>
+      <!-- get in touch section -->
+      <section class="space-y-5 mt-7">
+        <!-- text section -->
+        <div
+          class="flex flex-col justify-center items-center border-dotted border-t-2 border-b-4  space-y-5 lg:p-16 p-5 lg:mb-20"
+        >
+          <h2 class="lg:text-3xl font-extrabold">Get In Touch</h2>
+          <p class="lg:w-[600px] w-full text-center mt-6 capitalize">
+            Hey people's Our clint is very important .Are you contribute with us please fill up the form  and stay with us.
+          </p>
+        </div>
+        <!-- img section -->
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 space-y-5 p-5">
+          <div class="col-span-2 space-y-6 lg:p-14 p-6 border-[1px] broder-gray-300 rounded-2xl">
+            <div class="bg-[#BCED6D1A] p-8 rounded-2xl">
+              <img src="./images/12.png" alt="">
+              <p>Phone Number</p>
+              <h3>+8801980640702</h3>
+            </div>
+            <div class="bg-[#FDDD5F1A] p-8 rounded-2xl">
+              <img src="./images/13.png" alt="">
+              <p>Email</p>
+              <h3>iftakharalamshuvo@gmail.com</h3>
+            </div>
+            <div class="bg-[#629CF31A] p-8 rounded-2xl">
+              <img src="./images/14.png" alt="">
+              <p>Location</p>
+              <h3>Chittagong</h3>
+            </div>
+
+          </div>
+    
+          <!-- your name -->
+          <div class="col-span-3">
+            <form class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <!-- name -->
+              <div class=" lg:col-span-1 col-span-2">
+                <div class="label space-y-3">
+                  <span class=" label-text text-xl font-bold">what is your name</span>
+                 
+                </div>
+                <input type="text" name="" id="" placeholder="Enter your name" class="bg-gray-100 w-full input">
+              </div>
+              <!-- email -->
+              <div class=" lg:col-span-1 col-span-2">
+                <div class="label space-y-3">
+                  <span class=" label-text text-xl font-bold">what is your Email</span>
+                 
+                </div>
+                <input type="email" name="" id="" placeholder="Enter Your Email" class="bg-gray-100 w-full input">
+              </div>
+              <!-- subject -->
+              <div class=" lg:col-span-1 col-span-2">
+                <div class="label space-y-3">
+                  <span class=" label-text text-xl font-bold">what is your subject</span>
+                 
+                </div>
+               <input type="text" name="" id="" class="bg-gray-100 w-full input" placeholder="Enter Your subject">
+              </div>
+              <!-- number -->
+              <div class=" lg:col-span-1 col-span-2">
+                <div class="label space-y-3">
+                  <span class=" label-text text-xl font-bold">what is your Number</span>
+                 
+                </div>
+               <input type="number" name="" id="" placeholder="Enter Your subject" class="bg-gray-100 w-full input">
+              </div>
+              <!-- text area -->
+              <div class=" col-span-2">
+                <div class="label space-y-3">
+                  <span class=" label-text text-xl font-bold">Details</span>
+                 
+                </div>
+              </div>
+              <textarea name="" id="" cols="30" rows="10"  class="bg-gray-100 w-full input p-[1.5rem] leading-8  col-span-2" style="height: 304px;" placeholder="Enter your details"></textarea>
+              <button class="btn bg-primary w-full col-span-2 text-white hover:text-black text-xl font-bold lg:mt-12 mt-6 ">Send Message</button>
+             
+             
+
+            </form>
+          </div>
+        </div>
       </section>
     </main>
   </body>
